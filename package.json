@@ -1629,6 +1629,7 @@
         }
     },
     "scripts": {
+        "dev": "npm run compile",
         "package": "gulp clean && gulp prePublishBundle && vsce package -o ms-python-insiders.vsix",
         "prePublish": "gulp clean && gulp prePublishNonBundle",
         "compile": "tsc -watch -p ./",
